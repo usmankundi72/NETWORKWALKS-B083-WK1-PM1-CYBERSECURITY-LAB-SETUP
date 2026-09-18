@@ -1,5 +1,5 @@
 # NETWORKWALKS-B083-WK1-PM1-CYBERSECURITY-LAB-SETUP
-🔐 Cybersecurity Lab Environment Setup
+🔐#**Cybersecurity Lab Environment Setup**
 
 Rebuilding my go-to pentesting lab — this time as part of my internship documentation
 
