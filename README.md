@@ -41,6 +41,8 @@ Testing security tools in a controlled environment
 
 ## 🏗️ **Lab Architecture**
 
+<img width="1366" height="768" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/2d52b2cc-353d-4810-a3d0-4fd645f787ca" />
+
 
 ## ⚙️ **Lab Configuration**
 
@@ -58,7 +60,6 @@ Testing security tools in a controlled environment
 | 🐧 **Kali IP Address** | 10.0.0.2/24          |
 | 🚪 **Default Gateway** | 10.0.0.1             |
 | 🌍 **DNS Server**      | 8.8.8.8              |
-| 🔮 **Fut**             |                      |
 
 
 # 🪜 **Build Process**
@@ -76,7 +77,8 @@ IPv4 Prefix:  10.0.0.0/24
 DHCP:         Enabled
 IPv6:         Disabled
 
-(Insert network settings screenshot here)
+
+<img width="1364" height="768" alt="{AE039402-98E4-4869-B2D7-6124D395B77D}" src="https://github.com/user-attachments/assets/92298e0b-800c-4461-a2df-61284a5dd50c" />
 
 Using a NAT Network is useful for this lab because additional attacker and target VMs can communicate with each other while remaining separated from the host's main network.
 
@@ -92,7 +94,8 @@ The VM was allocated:
 
 RAM: 5153 MB
 
-(Insert Kali Linux screenshot here)
+<img width="1366" height="768" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/02933b87-69bc-41da-9317-de6b082f2cdc" />
+
 
 A shared folder was also configured between the host and guest to make it easier to transfer files such as scripts, wordlists, and scan results.
 
@@ -109,7 +112,8 @@ Gateway:     10.0.0.1
 DNS:         8.8.8.8
 
 
-<img width="1280" height="703" alt="Screenshot_2026-09-18_13_02_05" src="https://github.com/user-attachments/assets/15a2b2d7-f777-47b7-9744-db58e015dfb1" />
+<img width="1280" height="703" alt="Screenshot_2026-09-18_13_02_05" src="https://github.com/user-attachments/assets/69729b58-0d6e-48b6-8e0c-be0be399f909" />
+
 
 After applying the configuration, I checked the network interface and tested connectivity to confirm that the settings were working correctly.
 
@@ -120,7 +124,9 @@ After completing the basic configuration and connectivity checks, I created a sn
 The snapshot serves as a restore point before installing additional tools or making further configuration changes. If something breaks during a security exercise, the VM can be restored to this clean state instead of rebuilding the environment from scratch.
 
 Clean Kali - Network Setup
-snapshot)
+
+<img width="1280" height="703" alt="Screenshot_2026-09-18_14_49_50" src="https://github.com/user-attachments/assets/92c43b02-5a32-42b9-9a6f-15327b0781a3" />
+
 The snapshot was taken after confirming that the network configuration, IP address, gateway, DNS, and basic tools were working correctly.
 
 
@@ -181,6 +187,7 @@ LinkedIn: `<www.linkedin.com/in/usmankundi-cybersecurity>`
 ---
 
 ## 📌 **Project Information**
+Program Name: Cybersecurity at Networkwalks | Week: 01 | Project: Cybersecurity & Pentesting Lab Setup | Repository: GitHub
 
 **Context:** *(your course/program name)* — **Internship Prep** | **Week:** 01 | **Task:** Cybersecurity & Pentesting Lab Rebuild | **Repository:** GitHub
 
