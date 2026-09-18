@@ -189,7 +189,7 @@ LinkedIn: `<www.linkedin.com/in/usmankundi-cybersecurity>`
 ## 📌 **Project Information**
 Program Name: Cybersecurity at Networkwalks | Week: 01 | Project: Cybersecurity & Pentesting Lab Setup | Repository: GitHub
 
-**Context:** *(your course/program name)* — **Internship Prep** | **Week:** 01 | **Task:** Cybersecurity & Pentesting Lab Rebuild | **Repository:** GitHub
+
 
 
 
